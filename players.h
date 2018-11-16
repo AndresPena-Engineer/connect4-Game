@@ -1,6 +1,3 @@
-// Andres Pena
-// 11.14.2018
-// Lab 7 - connect4
 
 #ifndef LAB7_PLAYERS_H
 #define LAB7_PLAYERS_H
