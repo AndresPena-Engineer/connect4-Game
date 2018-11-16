@@ -1,6 +1,3 @@
-// Andres Pena
-// 11.14.2018
-// Lab 7 - connect4
 
 #ifndef CS361LAB7_GAME_H
 #define CS361LAB7_GAME_H
