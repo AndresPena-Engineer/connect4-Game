@@ -1,6 +1,4 @@
-// Andres Pena
-// 11.14.2018
-// Lab 7 - connect4
+
 
 #include <iostream>
 
