@@ -1,4 +1,4 @@
-
+// Header class for constructors of the connect4 game
 #ifndef CS361LAB7_GAME_H
 #define CS361LAB7_GAME_H
 

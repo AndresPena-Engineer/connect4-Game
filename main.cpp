@@ -1,5 +1,10 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Name: Andres Pena
+// Description: 
+// 			This was a lab was created as a Connect 4 game. Capable of playing (Human vs Human, Human vs AI, and Computer vs Computer).
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
+// Libraries
 #include <iostream>
 
 #include "players.h"
@@ -7,7 +12,7 @@
 
 using namespace std;
 
-
+// Getters for players (AI and Human player)
 Player* getPlayer()
 {
 	static int playerNumber = 1;
@@ -32,10 +37,12 @@ Player* getPlayer()
 
 }
 
+// Method to create and display the X's and O'x of each position that are being placed in the game
 void PrintBoard(const Game &game)
 {
 	cout << endl;
 
+	// Printing the matrix of the board
 	for (int y = 0; y < game.BoardHeight; y++)
 	{
 		cout << "  | ";
@@ -75,6 +82,7 @@ void PrintBoard(const Game &game)
 
 }
 
+// Main class to call and create the board.
 int main()
 {
 	cout << "* * * * * * * * * * * * *\n";
@@ -108,6 +116,7 @@ int main()
 
 	PrintBoard(game);
 
+	// Decision to who won the game
 	switch (game.getState())
 	{
 	case GameState::P1Won:
